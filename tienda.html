@@ -1,0 +1,476 @@
+<!DOCTYPE html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <title>EcoBarrio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="ecoBarrioStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body class="container-tienda">
+    <header>
+        <nav class="menu-superior">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="index.html">
+                                <img src="img/blanco letras horizontal.svg" alt="Logo" class="logo">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cooperativa.html">Cooperativa
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="socios.html">Socios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                        <li>
+                            <form class="search-form">
+                                <label for="search-bar" class="label-hidden">Buscar:</label>
+                                <input id="search-bar" type="text" placeholder="Buscar...">
+                                <button type="submit"><i class="fas fa-search"></i></button>
+                            </form>
+                        <li class="nav-item">
+                            <a href="#" aria-label="Carrito de compras"><i class="fas fa-shopping-cart"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" aria-label="Perfil de usuario"><i class="fa-solid fa-user"></i></a>
+                        </li>
+                    </ul>
+        </nav>
+    </header>
+    <div class="banner">
+        <img src="img/latino-adult-female-farmer-working-while-harvestin-2022-06-06-15-35-17-utc.png" alt="granjeros sonrien y muestran cestas con vegetales">
+        <div class="selector">
+          <div class="circle"></div>
+          <div class="circle selected"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+
+    <!--Selector categoria-->
+    <section class="categorias-tienda">
+        <div>
+            <h1 class="titulo-categoria">Selecciona <br> Categoria</h1>    
+        </div>
+        <div class="botones-tienda">
+            <img src="img/Frescos.png" alt="Botón 1 - Sección de la Frescos">
+            <img src="img/Despensa.png" alt="Botón 2 - Sección de la Despensa">
+            <img src="img/Higiene.png" alt="Botón 3 - Sección de la Higiene 3">
+          </div>
+    </section>
+    <!--Productos-->
+    <section class="tienda">
+        <h1 class="titulo-tienda">Categorias</h1>
+        <nav class="button-row">
+            <ul>
+                <li><button class="active">Todas</button></li>
+                <li><button>Top 10</button></li>
+                <li><button>Novedades</button></li>
+                <li><button>Recientes</button></li>
+                <li><button>Favoritos</button></li>
+                <li><button>Temporada</button></li>
+            </ul>
+            <div class="search-bar2">
+                <input type="text" id="search-input2" placeholder="Buscar..." aria-label="Buscador de productos">
+                <button type="submit2" aria-label="Botón Buscar">
+                  <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </nav>
+
+        <!--Fichas producto_1-->
+        <div class="fichas-producto">
+            <div class="product-card">
+                <div class="product-image"></div>
+                <div class="product-info">
+                    <div class="product-info-sup">
+                        <div class="price">9.99€/kg</div>
+                        <div class="like-icon"><i class="fas fa-heart"></i></div>
+                    </div>
+                    <div class="product-text">
+                        <div class="product-title">Tomate superior</div>
+                        <div class="product-description">Tomate ecológico fruto de años de cultivo tradicional. Sabor
+                            excepcional.</div>
+                    </div>
+                    <div class="product-info-inf">
+                        <div class="favorites-icon"><i class="far fa-star"></i></div>
+                        <div class="rating">4.8</div>
+                        <div class="people-icon"><i class="fas fa-users"></i></div>
+                        <div class="purchased-count">6</div>
+                        <div class="cart-icon"><i class="fas fa-shopping-cart"></i></div>
+                    </div>
+                </div>
+            </div>
+            <!--Ficha producto_2-->
+            <div class="product-card">
+                <div class="product-image2"></div>
+                <div class="product-info">
+                    <div class="product-info-sup">
+                        <div class="price">4€</div>
+                        <div class="like-icon"><i class="fas fa-heart"></i></div>
+                    </div>
+                    <div class="product-text">
+                        <div class="product-title">Huevos camperos</div>
+                        <div class="product-description">Huevos camperos de gallinas criadas en libertad.</div>
+                    </div>
+                    <div class="product-info-inf">
+                        <div class="favorites-icon"><i class="far fa-star"></i></div>
+                        <div class="rating">4.6</div>
+                        <div class="people-icon"><i class="fas fa-users"></i></div>
+                        <div class="purchased-count">6</div>
+                        <div class="cart-icon"><i class="fas fa-shopping-cart"></i></div>
+                    </div>
+                </div>
+            </div>
+            <!--Ficha producto_3-->
+            <div class="product-card">
+                <div class="product-image3"></div>
+                <div class="product-info">
+                    <div class="product-info-sup">
+                        <div class="price">3€/Kg</div>
+                        <div class="like-icon"><i class="fas fa-heart"></i></div>
+                    </div>
+                    <div class="product-text">
+                        <div class="product-title">Pimientos verdes</div>
+                        <div class="product-description">Pimientos verdes cultivados de manera artesanal.</div>
+                    </div>
+                    <div class="product-info-inf">
+                        <div class="favorites-icon"><i class="far fa-star"></i></div>
+                        <div class="rating">4.8</div>
+                        <div class="people-icon"><i class="fas fa-users"></i></div>
+                        <div class="purchased-count">6</div>
+                        <div class="cart-icon"><i class="fas fa-shopping-cart"></i></div>
+                    </div>
+                </div>
+            </div>
+            <!--Ficha producto_4-->
+            <div class="product-card">
+                <div class="product-image4"></div>
+                <div class="product-info">
+                    <div class="product-info-sup">
+                        <div class="price">2.5€/kg</div>
+                        <div class="like-icon"><i class="fas fa-heart"></i></div>
+                    </div>
+                    <div class="product-text">
+                        <div class="product-title">Lechuga</div>
+                        <div class="product-description">Lechuga ecológica de la huerta, cultivo artesanal.</div>
+                    </div>
+                    <div class="product-info-inf">
+                        <div class="favorites-icon"><i class="far fa-star"></i></div>
+                        <div class="rating">4.8</div>
+                        <div class="people-icon"><i class="fas fa-users"></i></div>
+                        <div class="purchased-count">6</div>
+                        <div class="cart-icon"><i class="fas fa-shopping-cart"></i></div>
+                    </div>
+                </div>
+            </div>
+            <!--Ficha producto_1_2-->
+            <div class="fichas-producto">
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <div class="product-info">
+                        <div class="product-info-sup">
+                            <div class="price">9.99€/kg</div>
+                            <div class="like-icon"><i class="fas fa-heart"></i></div>
+                        </div>
+                        <div class="product-text">
+                            <div class="product-title">Tomate superior</div>
+                            <div class="product-description">Tomate ecológico fruto de años de cultivo tradicional. Sabor
+                                excepcional.</div>
+                        </div>
+                        <div class="product-info-inf">
+                            <div class="favorites-icon"><i class="far fa-star"></i></div>
+                            <div class="rating">4.8</div>
+                            <div class="people-icon"><i class="fas fa-users"></i></div>
+                            <div class="purchased-count">6</div>
+                            <div class="cart-icon"><i class="fas fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!--Ficha producto_2_2-->
+                <div class="product-card">
+                    <div class="product-image2"></div>
+                    <div class="product-info">
+                        <div class="product-info-sup">
+                            <div class="price">4€</div>
+                            <div class="like-icon"><i class="fas fa-heart"></i></div>
+                        </div>
+                        <div class="product-text">
+                            <div class="product-title">Huevos camperos</div>
+                            <div class="product-description">Huevos camperos de gallinas criadas en libertad.</div>
+                        </div>
+                        <div class="product-info-inf">
+                            <div class="favorites-icon"><i class="far fa-star"></i></div>
+                            <div class="rating">4.6</div>
+                            <div class="people-icon"><i class="fas fa-users"></i></div>
+                            <div class="purchased-count">6</div>
+                            <div class="cart-icon"><i class="fas fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!--Ficha producto_3_2-->
+                <div class="product-card">
+                    <div class="product-image3"></div>
+                    <div class="product-info">
+                        <div class="product-info-sup">
+                            <div class="price">3€/Kg</div>
+                            <div class="like-icon"><i class="fas fa-heart"></i></div>
+                        </div>
+                        <div class="product-text">
+                            <div class="product-title">Pimientos verdes</div>
+                            <div class="product-description">Pimientos verdes cultivados de manera artesanal.</div>
+                        </div>
+                        <div class="product-info-inf">
+                            <div class="favorites-icon"><i class="far fa-star"></i></div>
+                            <div class="rating">4.8</div>
+                            <div class="people-icon"><i class="fas fa-users"></i></div>
+                            <div class="purchased-count">6</div>
+                            <div class="cart-icon"><i class="fas fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!--Ficha producto_4_2-->
+                <div class="product-card">
+                    <div class="product-image4"></div>
+                    <div class="product-info">
+                        <div class="product-info-sup">
+                            <div class="price">2.5€/kg</div>
+                            <div class="like-icon"><i class="fas fa-heart"></i></div>
+                        </div>
+                        <div class="product-text">
+                            <div class="product-title">Lechuga</div>
+                            <div class="product-description">Lechuga ecológica de la huerta, cultivo artesanal.</div>
+                        </div>
+                        <div class="product-info-inf">
+                            <div class="favorites-icon"><i class="far fa-star"></i></div>
+                            <div class="rating">4.8</div>
+                            <div class="people-icon"><i class="fas fa-users"></i></div>
+                            <div class="purchased-count">6</div>
+                            <div class="cart-icon"><i class="fas fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <section class="ofertas-del-mes">
+        <h1 class="titulo-ofertas">Ofertas del Mes</h1>
+        <div class="ficha-de-oferta">
+            <div class="imagen-de-oferta"></div>
+            <div class="info-de-oferta">
+              <div class="titulo-de-producto">Tomate Cherry</div>
+                <div class="iconos-de-producto">
+                <div class="precio-de-producto">7€/Kg</div>
+                <i class="fas fa-shopping-cart carrito-oferta"></i>
+                <i class="fas fa-heart"></i>
+              </div>
+            </div>
+        </div>
+
+        <div class="ficha-de-oferta2">
+            <div class="imagen-de-oferta"></div>
+            <div class="info-de-oferta">
+              <div class="titulo-de-producto">Huevos Camperos</div>
+                <div class="iconos-de-producto">
+                <div class="precio-de-producto">4€/12u</div>
+                <i class="fas fa-shopping-cart carrito-oferta"></i>
+                <i class="fas fa-heart"></i>
+              </div>
+            </div>
+        </div>
+        <div class="ficha-de-oferta3">
+            <div class="imagen-de-oferta"></div>
+            <div class="info-de-oferta">
+              <div class="titulo-de-producto">Pimiento rojo</div>
+                <div class="iconos-de-producto">
+                <div class="precio-de-producto">3€/Kg</div>
+                <i class="fas fa-shopping-cart carrito-oferta"></i>
+                <i class="fas fa-heart"></i>
+              </div>
+            </div>
+        </div>
+    </section>          
+    <section class="ultimas-compras">
+        <h1 class="titulo-compras">Ultimas Compras</h1>
+        <div class="boton-izq">
+            <img src="img/btn_izq.png" alt="Botón Izquierda">
+        </div>
+            <!--Ficha ultimas compras_1-->
+            <div class="fichas-compras">
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <div class="product-info">
+                        <div class="product-info-sup">
+                            <div class="price">9.99€/kg</div>
+                            <div class="like-icon"><i class="fas fa-heart"></i></div>
+                        </div>
+                        <div class="product-text">
+                            <div class="product-title">Tomate superior</div>
+                            <div class="product-description">Tomate ecológico fruto de años de cultivo tradicional. Sabor
+                                excepcional.</div>
+                        </div>
+                        <div class="product-info-inf">
+                            <div class="favorites-icon"><i class="far fa-star"></i></div>
+                            <div class="rating">4.8</div>
+                            <div class="people-icon"><i class="fas fa-users"></i></div>
+                            <div class="purchased-count">6</div>
+                            <div class="cart-icon"><i class="fas fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!--Ficha ultimas compras_2-->
+                <div class="product-card">
+                    <div class="product-image2"></div>
+                    <div class="product-info">
+                        <div class="product-info-sup">
+                            <div class="price">4€</div>
+                            <div class="like-icon"><i class="fas fa-heart"></i></div>
+                        </div>
+                        <div class="product-text">
+                            <div class="product-title">Huevos camperos</div>
+                            <div class="product-description">Huevos camperos de gallinas criadas en libertad.</div>
+                        </div>
+                        <div class="product-info-inf">
+                            <div class="favorites-icon"><i class="far fa-star"></i></div>
+                            <div class="rating">4.6</div>
+                            <div class="people-icon"><i class="fas fa-users"></i></div>
+                            <div class="purchased-count">6</div>
+                            <div class="cart-icon"><i class="fas fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!--Ficha ultima compra_3-->
+                <div class="product-card">
+                    <div class="product-image3"></div>
+                    <div class="product-info">
+                        <div class="product-info-sup">
+                            <div class="price">3€/Kg</div>
+                            <div class="like-icon"><i class="fas fa-heart"></i></div>
+                        </div>
+                        <div class="product-text">
+                            <div class="product-title">Pimientos verdes</div>
+                            <div class="product-description">Pimientos verdes cultivados de manera artesanal.</div>
+                        </div>
+                        <div class="product-info-inf">
+                            <div class="favorites-icon"><i class="far fa-star"></i></div>
+                            <div class="rating">4.8</div>
+                            <div class="people-icon"><i class="fas fa-users"></i></div>
+                            <div class="purchased-count">6</div>
+                            <div class="cart-icon"><i class="fas fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!--Ficha Ultima compra_4-->
+                <div class="product-card">
+                    <div class="product-image4"></div>
+                    <div class="product-info">
+                        <div class="product-info-sup">
+                            <div class="price">2.5€/kg</div>
+                            <div class="like-icon"><i class="fas fa-heart"></i></div>
+                        </div>
+                        <div class="product-text">
+                            <div class="product-title">Lechuga</div>
+                            <div class="product-description">Lechuga ecológica de la huerta, cultivo artesanal.</div>
+                        </div>
+                        <div class="product-info-inf">
+                            <div class="favorites-icon"><i class="far fa-star"></i></div>
+                            <div class="rating">4.8</div>
+                            <div class="people-icon"><i class="fas fa-users"></i></div>
+                            <div class="purchased-count">6</div>
+                            <div class="cart-icon"><i class="fas fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="boton-dch">
+                    <img src="img/btn_dch.png" alt="Botón Derecha">
+                </div>
+    </section>
+    <!--Footer-->
+    <br>
+    <footer class="footer">
+        <div class="grid-container">
+            <section class="left-column">
+                <div class="company-info">
+                    <h2>ECO Barrio</h2>
+                    <p>C/ de la Huerta, 12, (19117) Uceda, Castilla-La Mancha</p>
+                    <p>L-V: 10:00 - 14:00 y 16:00 - 20:00 / S: 10:00 - 14:00<br>Domingos y festivos: Cerrado</p>
+                    <p>+34 926 123 456<br>info@ecoBarrio.es</p>
+                </div>
+
+                <div class="newsletter">
+                    <h2>Subscribete a Nuetra Newsletter</h2>
+                    <p>Suscríbete para estar siempre informado.</p>
+                    <form role="search" class="search-wrapper cf">
+                        <label for="incident-email" class="label-hidden">Email:</label>
+                        <input id="incident-email" type="email" name="incident" placeholder="Introduce tu email"
+                            required />
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </section>
+            <section class="right-column">
+                <nav class="nav-links" role="navigation" aria-label="Secondary">
+                    <div class="main-menu">
+                        <h3>Menu</h3>
+                        <ul>
+                            <li>Inicio</li>
+                            <li>Cooperativa</li>
+                            <li>Socios</li>
+                            <li>Tienda</li>
+                            <li>Eventos</li>
+                            <li>Contacto</li>
+                        </ul>
+                    </div>
+
+                    <div class="technical-support">
+                        <h3>Tienda</h3>
+                        <ul>
+                            <li>Frescos</li>
+                            <li>Despensa</li>
+                            <li>Higiene</li>
+                        </ul>
+                    </div>
+                    <div class="information">
+                        <h3>Ayuda</h3>
+                        <ul>
+                            <li>Quienes somos</li>
+                            <li>Faqs</li>
+                            <li>Ser socio</li>
+                            <li>Eventos y talleres</li>
+                            <li>Blog</li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="social-media">
+                    <h2>Redes sociales</h2>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fa-brands fa-square-twitter"></i></a>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+        <p class="copyright">2023 ECO Barrio. Todos los derechos reservados</p>
+    </footer>
+    <!-- scripts -->
+</body>
+
+</html>
